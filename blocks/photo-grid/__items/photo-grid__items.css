@@ -1,6 +1,8 @@
 .photo-grid__items {
   max-width: 1184px;
   margin: 0 auto;
+  padding: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
