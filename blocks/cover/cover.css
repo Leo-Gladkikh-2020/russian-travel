@@ -12,14 +12,14 @@
   position: relative;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
     min-height: 640px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
     margin-top: 90px;
     min-height: 480px;
