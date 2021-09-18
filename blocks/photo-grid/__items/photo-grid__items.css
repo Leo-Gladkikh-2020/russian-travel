@@ -1,5 +1,6 @@
 .photo-grid__items {
   max-width: 1184px;
+  min-height: 213px;
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -12,13 +13,14 @@
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 14px;
+    min-height: 225px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
-    gap: 16px;
+    min-height: 264px;
   }
 }
 
@@ -26,5 +28,6 @@
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
     gap: 12px;
+    min-height: 216px;
   }
 }

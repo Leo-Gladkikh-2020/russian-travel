@@ -31,7 +31,7 @@
 
 /* Секция places */
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/list/places__list.css);
+@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
@@ -49,5 +49,6 @@
 /* Секция footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links/_item/footer__links_item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
