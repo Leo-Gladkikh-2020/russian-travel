@@ -21,6 +21,7 @@
   .photo-grid__items {
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     min-height: 264px;
+    gap: 16px;
   }
 }
 
