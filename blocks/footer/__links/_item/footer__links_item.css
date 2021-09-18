@@ -4,9 +4,6 @@
 
 .footer__links_item:nth-last-child(1) {
   padding-right: 0;
-}
-
-.footer__links_item:nth-last-child(1) {
   padding-bottom: 0;
 }
 
