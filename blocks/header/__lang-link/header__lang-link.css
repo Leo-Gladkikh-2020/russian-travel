@@ -1,15 +1,15 @@
 .header__lang-link {
-  margin-left: 18px;
   font-size: 24px;
   line-height: 28px;
   color: #fff;
   text-decoration: none;
   text-align: right;
-  transition: opacity .2s linear;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .header__lang-link:hover {
   opacity: .8;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
